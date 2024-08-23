@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jobpriorities{
+    text-align: center;
+}
+
+.boxes{
+    width: 350px;
+    height: 170px;
+    background-color: lightblue;
+    margin: 40px;
+}
+
+.jobs h2{
+    margin: 20px;
+
+}
+
+.jobs p{
+    padding:20px ;
+}
+
+
+.jobs{
+    display: flex;
+}

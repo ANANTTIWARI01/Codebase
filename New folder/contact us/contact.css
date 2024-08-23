@@ -1,0 +1,244 @@
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.contactform{
+    width: 100%;
+    height: 585px;
+    background-color: #4e0fea;
+}
+
+.headingline h1{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+font-weight: bold;
+}
+
+
+.sidha{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: auto; */
+}
+input {
+    width: 534px;
+    height: 40px;
+    margin-top:7px;
+    border-radius: 3px  ;
+    border: none;
+}
+
+label{
+    color: #fff;
+    font-weight: 500;
+    /* margin-bottom: 5px;  */
+}
+
+.name02 input{
+    width: 1230px;
+    height: 65px;
+   
+    /* display: flexbox; */
+}
+
+.name01{
+    padding: 0px 15px;
+    margin: 25px;
+}
+
+.name02{
+    
+    text-align: left;
+     margin: 20px 112px;
+}
+
+.submit {
+    /* width: fit-content; */
+    /* margin: 85px; */
+    margin: 76px 111px;
+   
+}
+.submit button{
+    width: 90px;
+    height: 37px;
+    padding: 8px 0px;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+.saamne{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+
+.dabba{
+    width: 585px;
+    height: 167px;
+    border:1px solid black;
+    position: relative;
+
+}
+
+.chitra{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    
+    /* margin: auto; */
+    top: -65px;
+    left: 218px;
+}
+
+.chitra img{
+    height: 100%;
+    width: 100%;
+}
+
+.jagah{
+    width: 132px;
+    height: 24px;
+    /* margin: 5px 0px 10px; */
+    font: bold;
+    /* text-align: center; */
+  
+
+}
+
+
+    /* text-align: center;
+    margin: auto; */
+/* position: absolute;
+top: 50%;
+left: 50%; */
+
+
+.givecall{
+    text-align: center;
+    /* margin: 0px 0px 50px; */
+}
+
+.numb{
+ background-color: #4e0fea;
+ width: 184px;
+ height: 30px;
+ text-align: center;
+ margin: auto;
+ border-radius: 25px;
+ padding-top: 15px;
+}
+
+.numb a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer {
+
+    width: 100%;
+    height: 460px;
+    background-color: #4e0fea;
+
+}
+
+.tm {
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 0 0 180px;
+    text-decoration: underline white;
+
+}
+
+.tm img {
+    width: 100%;
+}
+
+.icon span a {
+    font-size: 20px;
+    padding: 3px 5px;
+    margin: 3px 0;
+    color: white;
+    /* border: 1px solid white; */
+    margin: 3px;
+}
+
+.social {
+    justify-content: space-between;
+    display: flex;
+    margin: 100px auto;
+    padding: 0 180px;
+    /* text-decoration: overline white; */
+}
+
+.add a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icon span {
+    width: 20px;
+    color: #f1f1f1;
+
+    font-size: small;
+}
+
+.point h1 {
+    width: 90px;
+    height: 90px;
+    font-size: 58px;
+    border: 10px #4e0fea solid;
+    border-radius: 50%;
+    margin-right: 40px;
+    text-align: center;
+    color: #4e0fea;
+}
+
+.right {
+    display: flex;
+    margin: 0 100px;
+}
+
+.zero {
+    display: flex;
+    margin: 30px 0;
+}
+
+.fit {
+    margin-right: 30px;
+}
+
+.fit h5 {
+    font-size: 23px;
+    margin-left: -5px
+}
+
+.fit p {
+    font-size: 16px;
+}
+
+.nine {
+    margin-left: 140px;
+}
+.h
+{
+    margin-top: 100px;
+}

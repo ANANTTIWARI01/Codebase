@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.joiningg h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+.pic{
+    width: 700px;
+    height: 490px;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.tiffin{
+    display: flex;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+.hiringprocess li{
+    margin: 20px 0px;
+    
+}
+
+.hiringprocess li h3{
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 900;
+}
+.hiringprocess{
+    margin: auto 0px;
+    width: 577px;
+    height: 360px;
+}
+
+.hiringprocess p{
+    width: 500px;
+    height: 64px;
+    font-size: 16px;
+}
+
+.us{
+    background-color: blue;
+    border-radius: 30px;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    padding: 11px 10px;
+}
+.us a{
+ 
+
+
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: none;
+}
