@@ -1,0 +1,368 @@
+@media screen and (min-width:320px) and (max-width:520px)
+{
+    
+            .items{
+                display: none;
+            }
+
+            .logo1{
+                height: unset;
+                /* width: unset; */
+            }
+
+            .main1{
+                margin: 0;
+                /* display: inline-flex; */
+                flex-direction: column-reverse;                         
+                text-align: center;
+
+            }
+
+            .headings{
+                width: unset;
+                height: unset;
+                padding: 0;
+            }
+
+            .headings h1{
+                font-size: 30px;
+                /* text-align: center; */
+            }
+            /* .headings p{
+                text-align: center;
+            }
+            .headings a{
+                margin: auto;
+            } */
+
+            .logae{
+                width: unset;
+                height: unset;
+            }
+
+
+            .main2 h3{
+                padding: 25px;
+            }
+
+            .logi{
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .main3{
+                width: unset;
+                height: unset;
+                
+            }
+            .main3 h2{
+                padding: 0%;
+                margin: 5%;
+            }
+            .contentcard{
+                flex-direction: column;
+                height: unset;
+                margin: 0;
+                width: unset;
+            }
+
+            .section4{
+                margin: 0%;
+                height: unset;
+            }
+            .lelo{
+                flex-direction: column;
+            }
+            .lo{
+                width: unset;
+                height: unset;
+                
+            }
+
+            .section05{
+                padding: 0%;
+                height: unset;
+            }
+
+            .section05 h1{
+                
+                padding: 5%;
+            }
+
+
+            .TOP{
+                padding: 0%;
+                margin: 15px;
+            }
+            .inwrap{
+                gap: 5px;
+            }
+
+            .para02{
+                width: 282px;
+                padding: 8px;
+            }
+            .para02 p{
+                font-size: 12px;
+            }
+
+            .joiningg h1{
+                padding: 0%;
+            }
+
+            .tiffin{
+                padding: 0%;
+                flex-direction: column;
+                text-align:left;
+            }
+
+            .pic{
+                height: unset;
+                width: unset;
+            }
+            .hiringprocess{
+                height: unset;
+                width: 281px;
+            margin: 0%;    
+            }
+
+            .hiringprocess p{
+            width: unset;
+                height: unset;
+            }
+
+            .us{
+                height: unset;
+                margin: auto;
+
+            }
+
+            .join{
+                width: unset;
+                height: unset;
+                margin-top: 5%;
+                padding: 25px;
+
+            }
+
+            .join h3{
+                padding: 0%;
+            }
+
+            .display{
+                padding: 30px 0px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .footer{
+                height: unset;
+                width: unset;
+            }
+
+            .tm{
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .social{
+                flex-direction: column;
+                padding: 0;
+                text-align: center;
+            margin: 0;
+            }
+    
+}
+
+
+
+
+@media screen and (min-width:520px) and (max-width:720px)
+{
+    .header{
+        margin-bottom: 35px;
+    }
+            .items{
+                display: none;
+            }
+
+            .logo1{
+                /* height: unset; */
+                width: unset;
+            }
+
+            .main1{
+                margin: 0;
+                /* display: inline-flex; */
+                flex-direction: column-reverse;
+                text-align: center;
+
+            }
+
+            .headings{
+                width: unset;
+                height: unset;
+                padding: 20px 34px 0px;
+                margin-top: 25px;
+            }
+
+            .headings h1{
+                font-size: 30px;
+                /* text-align: center; */
+            }
+            /* .headings p{
+                text-align: center;
+            }
+            .headings a{
+                margin: auto;
+            } */
+
+            .logae{
+                width: unset;
+                height: unset;
+            }
+/* .main2{
+    padding: 20px;
+} */
+
+            .main2 h3{
+                padding: 50px 0px;
+            }
+
+            .logi{
+                /* flex-direction: column; */
+                /* gap: 20px; */
+                margin: 30px;
+                padding: 30px;
+            }
+            .logi img{
+                
+                padding: 5px;
+                margin: 10px 0px;
+            }
+
+            .main3{
+                width: unset;
+                height: unset;
+                
+            }
+            .main3 h2{
+                padding: 0%;
+                margin: 5%;
+            }
+            .contentcard{
+                /* flex-direction: column; */
+                height: unset;
+                margin: 0;
+                width: unset;
+            }
+
+            .logos{
+                margin: 20px 0px;
+            }
+            .section4{
+                margin: 0%;
+                height: unset;
+            }
+             .front{
+            flex-wrap: wrap;
+            } 
+            .lo{
+                width: unset;
+                height: unset;
+                
+            }
+
+            .section05{
+                padding: 0%;
+                height: unset;
+            }
+
+            .section05 h1{
+                
+                padding: 5%;
+            }
+
+            
+            .TOP{
+                padding: 0px 20px;
+                margin: 15px;
+            }
+            .inwrap{
+                gap: 5px;
+            }
+
+            .para02{
+                width:282px;
+                padding: 8px;
+
+            }
+            .para02 p{
+                font-size: 12px;
+            }
+            .joiningg h1{
+                padding: 0%;
+            }
+
+            .containe{
+                padding: 20px;
+                flex-direction: column;
+                text-align:left;
+            }
+
+            .pic{
+                height: unset;
+                width: unset;
+            }
+            .hiringprocess{
+                height: unset;
+                /* width: 281px; */
+            margin: 0%;    
+            padding: 20px 53px;
+            }
+
+            .hiringprocess p{
+            width: unset;
+                height: unset;
+            }
+
+            .us{
+                height: unset;
+                /* margin: auto; */
+            }
+            .join{
+                width: unset;
+                height: unset;
+                margin-top: 5%;
+                padding: 25px;
+
+            }
+
+            .join h3{
+                padding: 0%;
+            }
+
+            .display{
+                padding: 30px 0px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .footer{
+                height: unset;
+                width: unset;
+            }
+
+            .tm{
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .social{
+                flex-direction: column;
+                padding: 0;
+                text-align: center;
+            margin: 0;
+            }
+    
+}

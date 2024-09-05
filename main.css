@@ -16,31 +16,34 @@ html,body{
 
 .header{
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 0px 80px; */
+    padding: 30px;
 }
 .logo1{
-    height: 30px;
+    /* height: 30px; */
     width: 150px;
 }
 
 .logo1 img{
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 .items{
     display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .items li{
-    padding: 40px 20px;
+    padding: 0px 32px;
     list-style-type: none;
     
 }
-.hiring{
+/* .hiring{
     margin-top: 29px;
   background-color: #4e0fea;
   width: 120px;
@@ -49,7 +52,7 @@ html,body{
   padding: 8px 0px;
   border-radius: 30px;
  
-}
+} */
 .items  li a{
     text-decoration: none;
     font-size: 20px;
@@ -61,6 +64,9 @@ html,body{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    background-color: #4e0fea;
+    padding: 10px 30px;
+    border-radius: 20px;
 }
 
 
@@ -72,14 +78,17 @@ vertical-align: auto;
 
 .headings{
     width: 700px;
-    height: 300px;
+    /* height: 300px;
    
-    margin-top: auto;
+    margin: auto; */
     padding-right: 30px;
     
 }
 .main1{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
     padding-bottom: 90px;
     margin: 0px 135px;
 }
@@ -88,7 +97,7 @@ vertical-align: auto;
     width: 100%;
 }
 .logae{
-    width: 516px;
+    /* width: 516px; */
     height: 452px;
 }
 .headings h1{
@@ -142,11 +151,12 @@ padding: 10px 40px;
 }
 .contentcard{
 
-width: 980px;
+width: 1370px;
 height: 650px;
 /* margin: 0px 150px; */
 margin: auto;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-evenly;
 padding: 20px;
 /* border: 1px solid lightgrey; */
@@ -160,10 +170,11 @@ padding: 20px;
 }
 .logos{
     height: 510px;
-    width: 270px;
+    width: 290px;
 border: 1px solid lightgrey;
 border-radius: 10px;
 text-align: center;
+padding: 20px;
 
 }
 
@@ -172,6 +183,7 @@ text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .logi img{
@@ -259,8 +271,8 @@ font-weight: 700;
     
 }
 .pict{
-    height: 96px;
-    width: 96px;
+    height: 70px;
+    width: 90px;
     margin: auto;
    
 }
@@ -268,8 +280,8 @@ font-weight: 700;
     height: 100%;
     width: 100%;
 }
-.lo{
-    width: 350px;
+.first{
+    width: 370px;
     height: 290px;
     border: 2px solid black;
     padding: 20px;
@@ -279,19 +291,20 @@ font-weight: 700;
     opacity: 80%;
     border-radius: 20px;
 }
-.lo h3{
-    margin: 10px 0px;
+.first h3{
+    margin: 53px 0px 20px 0px;
 }
 
-.lelo{
+.frames{
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section4{
-    margin: 30px 0px;
+    margin: 30px 0px 0px;
     background-image: url("https://www.codebase.com/wp-content/uploads/2022/04/our-commitment-bg-1.jpeg");
     background-size: cover;
     background-color: #eee;
@@ -311,7 +324,7 @@ font-weight: 700;
     background-color: lightgrey;
     margin: 7px;
     border-radius: 10px;
-    
+    padding: 4px 8px;
 }
 
 .section05{
@@ -327,39 +340,56 @@ font-weight: 700;
 }
 
 .TOP{
-    text-align: center;
+    text-align: justify;
     padding: 0px 20px;
     margin: 20px 0px;
+    width: 396px;
 
 }
 .inwrap{
     display: flex;
-    gap: 20px;
+    gap: 16px;
+    align-items: center;
+}
+
+.heads h2{
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .ima{
-    height: 32px ;
-    width: 32px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+
 }
 
 .ima img{
-    height: 100%;
-    width: 100%;
+
+    height: 32px ;
+    width: 32px;
+    
 }
 
 .para02{
     width: 350px;
-    padding: 20px 12px;
+    padding: 15px 14px;
+    /* margin-left: 30px; */
 }
 
 .para02 p{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 15px;
+    /* font-weight: 400; */
+    margin-left: 8px;
 }
 
-.sideh{
+.front{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
     margin: 50px 0px;
 
@@ -380,48 +410,66 @@ font-weight: 700;
     height: 100%;
     width: 100%;
 }
-
-.tiffin{
+.containe{
     display: flex;
+    flex-wrap: wrap;
     padding: 50px 80px;
     align-items: center;
 }
 
-.hiringprocess li{
+/* .hiringprocess li{
     margin: 20px 0px;
     
+} */
+
+.pict1{
+    width: 30px;
+    margin: 0px 20px;
+}
+.pict1 h5{
+    border: 2px solid #4e0fea;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #4e0fea;
 }
 
-.hiringprocess li h3{
+.leveling{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.hiringprocess  h3{
     margin: 10px 0px;
     font-weight: bolder;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 19px;
+    font-weight: 700;
 }
-.hiringprocess{
-    margin: auto 0px;
-    width: 577px;
-    height: 400px;
-}
+/* .hiringprocess{
+    /* margin: auto 0px;
+    width: 577px; */
+    /* height: 400px; 
+} */
 
 .hiringprocess p{
     width: 500px;
-    height: 64px;
-    font-size: 16px;
+    /* height: 64px; */
+    font-size: 15px;
 }
 
 .us{
-    background-color: blue;
-    border-radius: 30px;
-    width: 130px;
-    height: 45px;
-    text-align: center;
-    padding: 11px 10px;
+    /* background-color: blue; */
+    /* width: 130px;
+    height: 45px; */
+    /* text-align: center; */
+    /* padding: 8px 8px; */
+    margin: 35px 60px 0px;
 }
 .us a{
  
-
-
+    padding: 10px 20px;
+    border-radius: 30px;
+background-color: #4e0fea;
  color: white;
  font-weight: bold;
  font-size: 20px;
@@ -449,6 +497,7 @@ font-weight: 700;
 
 .display {
     display: flex;
+    flex-wrap: wrap;
     padding: 60px 480px;
 }
 
@@ -519,6 +568,7 @@ font-weight: 700;
 .social {
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
     margin: 100px auto;
     padding: 0 180px;
     /* text-decoration: overline white; */
@@ -587,40 +637,43 @@ font-weight: 700;
 
 .headerS{
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 37px;
+    padding: 30px;
 }
 .logo1{
-    height: 39px;
-    width: 137px;
-  
+    /* height: 30px; */
+    width: 150px;
 }
+
 .logo1 img{
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 .items{
     display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .items li{
-    padding: 43px;
+    padding: 0px 32px;
     list-style-type: none;
     
 }
-.hiringg{
+/* .hiring{
     margin-top: 29px;
   background-color: #4e0fea;
   width: 120px;
   height: 45px;
   text-align: center;
-  padding: 12px 0px;
+  padding: 8px 0px;
   border-radius: 30px;
  
-}
+} */
 .items  li a{
     text-decoration: none;
     font-size: 20px;
@@ -632,7 +685,20 @@ font-weight: 700;
     color: white;
     font-size: 20px;
     font-weight: bold;
+    background-color: #4e0fea;
+    padding: 10px 30px;
+    border-radius: 20px;
 }
+
+
+.ourservice {
+    text-align: center;
+    margin: 40px 0px 50px;
+}
+.ourservice h1{
+    font-weight: 700;
+}
+
 
 
 .logoe{
@@ -640,7 +706,7 @@ font-weight: 700;
     height: 100px;
     position:absolute;
     top: -48px;
-    left: 119px;
+    left: 146px;
     
 }
 .logoe img{
@@ -651,18 +717,32 @@ font-weight: 700;
 }
 .servicecontent{
   
-    width: 400px;
-    
+    width: 404px;
+    height: 270px;
     position: relative;
     text-align: center;
-    padding: 60px;
+    padding: 79px 43px;
     margin: 43px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 15px;
      }
+
+.servicecontent h1{
+    font-size: 20px;
+    margin-bottom: 20PX;
+}
+
+.servicecontent p{
+    font-size: 16px;
+}
+
+
     .box{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
+        margin: 60px 0px;
         
     }
     .photo{
@@ -681,9 +761,11 @@ font-weight: 700;
     }
     .contentss h1{
       padding: 20px 0px;
+      font-size: 32px;
     }
     .contentss h3{
         padding: 20px 0px;
+        font-size: 18px;
             }
         
         
@@ -691,20 +773,24 @@ font-weight: 700;
 
     .openthis{    
     margin: 20px;
-    background-color: #4E0FEA;
+    /* background-color: #4E0FEA;
     height: 50px;
     width:300px;
-    padding: 15px;
+    padding: 11px 22px; */
   
-    text-decoration: none;
-    margin: auto;
-    border-radius: 20px;
+    /* margin: auto; */
 }
 .openthis a{
     color: white;
 text-decoration: none;
 font-size: 20px;
 font-weight: bold;
+padding: 10px 30px;
+background-color: #4e0fea;
+text-decoration: none;
+
+border-radius: 20px;
+
 }
 
 .footer {
@@ -806,24 +892,27 @@ font-weight: bold;
 /* podcasts  css file ...........*/
 
 
-
+.main3p{
+    margin: 50px 0px;
+}
 
 .section1{
-    width: 100%;
-    height: 600px; 
+    /* width: 100%;
+    height: 600px;  */
     background-color: #F1F1F1;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 70px 0px;
-    position: relative;
+    /* position: relative; */
     
 }
 
 .image01{
     width: 400px;
     height: 400px;
-    position: absolute;
-    right: 150px;
+    /* position: absolute;
+    right: 150px; */
 }
 
 .image01 img{
@@ -847,23 +936,23 @@ margin: 20px 0px;
 }
 
 .content01{
-    margin: auto;
+    /* margin: auto; */
     width: 500px;
-    height: 400px;
-    position: absolute;
+    /* height: 400px; */
+    /* position: absolute;
     left: 150px;
-    top: 100px;
+    top: 100px; */
     
 }
 
 .button01{
-    background-color: #4E0FEA;
+    /* background-color: #4E0FEA;
     height: 40px;
-    width: 180px;
-    text-align: center;
-    padding-top: 7px;
-    margin-top: 20px;
-    border-radius: 7px;
+    width: 180px; */
+    /* text-align: center; */
+    /* padding-top: 7px; */
+    margin-top: 32px;
+    /* border-radius: 7px; */
 }
 
 .button01 a{
@@ -871,6 +960,9 @@ margin: 20px 0px;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    background-color: #4e0fea;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .section2{
@@ -1021,10 +1113,19 @@ margin: 50px 0px;
 
 
 .contactform{
-    width: 100%;
-    height: 585px;
+    /* width: 100%;
+    height: 585px; */
+    padding: 30px;
     background-color: #4e0fea;
 }
+
+.upper{
+    text-align: center;
+    font-size: 15px;
+
+    margin: 50px;
+}
+
 
 .headingline h1{
     color: #fff;
@@ -1034,7 +1135,7 @@ font-weight: bold;
 }
 
 
-.sidha{
+.samee{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1090,34 +1191,40 @@ label{
 
 
 
-.saamne{
+.front01{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 600px;
+    /* width: 100%; */
+    height: 500px;
 }
 
 
-.dabba{
+.box01 {
     width: 585px;
     height: 167px;
     border:1px solid black;
     position: relative;
+    border-radius: 20px;
 
 }
 
-.chitra{
+.box01 h2{
+    text-align: center;
+    margin-top: 68px;
+}
+
+.pict010{
     height: 120px;
     width: 120px;
     position: absolute;
     
     /* margin: auto; */
     top: -65px;
-    left: 218px;
+    left: 230px;
 }
 
-.chitra img{
+.pict010 img{
     height: 100%;
     width: 100%;
 }
@@ -1142,25 +1249,31 @@ left: 50%; */
 
 .givecall{
     text-align: center;
-    /* margin: 0px 0px 50px; */
+    margin: 0px 0px 35px;
 }
-
+.givecall h1{
+    font-size: 26px;
+    font-weight: 500;
+}
 .numb{
-    background-color: #4e0fea;
+    /* background-color: #4e0fea;
     width: 184px;
-    height: 40px;
+    height: 40px; */
     text-align: center;
-    margin: auto;
+    /* margin: auto;
     border-radius: 20px;
-    padding-top: 7px;
+    padding-top: 7px; */
     margin-bottom: 40px;
 }
 
-.numb a{
-    font-size: 18px;
+.numb a{    font-size: 18px;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+    background-color: #4e0fea;
+    /* margin: auto; */
+    padding: 10px 20px;
+    border-radius: 50px;
 }
 
 
