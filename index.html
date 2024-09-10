@@ -27,6 +27,46 @@
     //             gender:male]]
 
     
+    
+
+    // let obj1 = {
+    //     name:"lucky",
+    //     age:15,
+    //     location:"jaipur"
+    // }
+    
+
+    // for( let i in obj1){
+    //     document.write(i + " : " + obj1[i] + "<br>");
+
+
+
+
+  
+
+    // console.log(obj1);
+
+
+
+// console.log(obj1.marks(1,2,3))
+
+
+let here = new Object();
+here.name = "john";
+here.age = 18;
+
+// console.log(here.name);
+
+
+  
+let obj1 = {
+    name :"anant",
+    getintroduction: function() {
+        return "my name is " + this.name;
+    }
+};
+const a = obj1.getintroduction.bind(obj1);
+document.write(a());
 
 
 
