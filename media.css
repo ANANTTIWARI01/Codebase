@@ -837,9 +837,9 @@
                 padding: 8px;
 
             }
-            .para02 p{
-                /* font-size: 12px; */
-            }
+            /* .para02 p{
+                /* font-size: 12px; 
+            } */
             .joiningg h1{
                 padding: 0%;
                 /* font-size: 36px; */
@@ -889,12 +889,12 @@
                 /* font-size: 26px; */
             }
 
-            .joinnn a{
-                /* font-size: 20px; */
-            }
-            .job a{
-                /* font-size: 20px; */
-            }
+            /* .joinnn a{ 
+                /* font-size: 20px; 
+             } */
+            /* .job a{ */
+                /* font-size: 20px; 
+            / */
 
             .display{
                 padding: 90px 0px;
@@ -909,10 +909,10 @@
                 width: unset;
             }
 
-            .tm{
+            /* .tm{ */
                 /* margin: 0% auto; */
                 /* padding: 0%; */
-            }
+            /* } */
 
             .social{
                 /* flex-direction: column; */
